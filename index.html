@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wedding für meiner Schwester</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/assets/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("/assets/img/IMG_5162.jpg")}
+.bgimg2 {background-image: url("/assets/img/flowers.jpg")}
+</style>
+</head>
+<body>
+
+<!-- Header / Home-->
+<header class="wedding-project-display-container wedding-project-wide bgimg wedding-project-grayscale-min" id="home">
+  <div class="wedding-project-display-middle wedding-project-text-white wedding-project-center">
+    <h1 class="wedding-project-jumbo">Thao & Samet</h1>
+    <h2>Are getting married</h2>
+    <h2><b>08.03.2022</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="wedding-project-bottom wedding-project-hide-small">
+  <div class="wedding-project-bar wedding-project-white wedding-project-center wedding-project-padding wedding-project-opacity-min wedding-project-hover-opacity-off">
+    <a href="#home" style="width:25%" class="wedding-project-bar-item wedding-project-button">Home</a>
+    <a href="#us" style="width:25%" class="wedding-project-bar-item wedding-project-button">Thao & Samet</a>
+    <a href="#wedding" style="width:25%" class="wedding-project-bar-item wedding-project-button">Wedding</a>
+    <a href="#rsvp" style="width:25%" class="wedding-project-bar-item wedding-project-button wedding-project-hover-black">RSVP</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="wedding-project-container wedding-project-padding-64 wedding-project-pale-red wedding-project-grayscale-min" id="us">
+  <div class="wedding-project-content">
+    <h1 class="wedding-project-center wedding-project-text-grey"><b>Thao & Samet</b></h1>
+    <img class="wedding-project-round wedding-project-grayscale-min" src="/assets/img/IMG_5163.jpg" style="width:100%;margin:32px 0">
+    <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.</i>
+    </p><br>
+    <p class="wedding-project-center"><a href="#wedding" class="wedding-project-button wedding-project-black wedding-project-round wedding-project-padding-large wedding-project-large">Wedding Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="wedding-project-display-container bgimg2">
+  <div class="wedding-project-display-middle wedding-project-text-white wedding-project-center">
+    <h1 class="wedding-project-jumbo">You Are Invited</h1><br>
+    <h2>Of course..</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="wedding-project-container wedding-project-padding-64 wedding-project-pale-red wedding-project-grayscale-min wedding-project-center" id="wedding">
+  <div class="wedding-project-content">
+    <h1 class="wedding-project-text-grey"><b>THE WEDDING</b></h1>
+    <img class="wedding-project-round-large wedding-project-grayscale-min" src="/assets/img/wedding_location.jpg" style="width:100%;margin:64px 0">
+    <div class="wedding-project-row">
+      <div class="wedding-project-half">
+        <h2>When</h2>
+        <p>Wedding Ceremony - 2:00pm</p>
+        <p>Reception & Dinner - 5:00pm</p>
+      </div>
+      <div class="wedding-project-half">
+        <h2>Where</h2>
+        <p>Some place, an address</p>
+        <p>Some where, some address</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="wedding-project-container wedding-project-padding-64 wedding-project-pale-red wedding-project-center wedding-project-wide" id="rsvp">
+  <h1>HOPE YOU CAN MAKE IT!</h1>
+  <p class="wedding-project-large">Kindly Respond By January, 2017</p>
+  <p class="wedding-project-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="wedding-project-button wedding-project-round wedding-project-red wedding-project-opacity wedding-project-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="wedding-project-modal">
+  <div class="wedding-project-modal-content wedding-project-card-4 wedding-project-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="wedding-project-container wedding-project-white wedding-project-center">
+      <h1 class="wedding-project-wide">CAN YOU COME?</h1>
+      <p>We really hope you can make it.</p>
+      <form>
+        <input class="wedding-project-input wedding-project-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Sincerely, John &amp; Jane</i></p>
+      <div class="wedding-project-row">
+        <div class="wedding-project-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="wedding-project-button wedding-project-block wedding-project-green">Going</button>
+        </div>
+        <div class="wedding-project-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="wedding-project-button wedding-project-block wedding-project-red">Can't come</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="wedding-project-center wedding-project-black wedding-project-padding-16">
+</footer>
+<div class="wedding-project-hide-small" style="margin-bottom:32px">&nbsp;</div>
+
+</body>
+</html>
